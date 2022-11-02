@@ -5,10 +5,10 @@ app.set('views', '.\views');
 app.set('view engine', 'ejs');
 
 app.get('/', function(req, res){
-    res.render('pages\three',{
+    res.render('pages\three');
         tagline: 'Page Three'
     });
-});
+
 
 var memberApi = express.Router();
 
